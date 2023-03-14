@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Shopping Cart</title>
+</head>
+<body>
+	<font face="Noto" color="GoldenRod" size="5" align="center">
+		<h1>
+              <center>
+                TGS
+              </center>
+        </h1>
+        <hr>
+	<font face="Noto" color="black" size="5" align="center">
+        <div>
+            <h2 align="center"> Checkout </h2>
+            <form>
+               <table align="center">
+                  <tr>
+                     <th>
+                        <label for="fname" for="lname">Your Name</label>
+                     </th>
+                     <th>
+                        <input type="text" id="fname" id="lname" placeholder="First & Last Name"
+                           name="fname" name="lname">
+                     </th>
+                  </tr>
+                  <tr>
+                     <th>
+                        <label for="phonenumber">Phone #</label>
+                     </th>
+                     <th>
+                        <input type="text" id="phonenumber" placeholder="Enter Phone Number"
+                           name="phonenumber">
+                     </th>
+                  </tr>
+                  <tr>
+                     <th>
+                        <label for="address">Address</label>
+                     </th>
+                     <th>
+                        <input type="text" id="adress" placeholder="Street Address" name="address">
+                        <br>
+                        <input type="text" id="Number" placeholder="Apt, Suit, Unit, Building"
+                           name="Number">
+                     </th>
+                  </tr>
+                  <tr>
+                     <th>
+                        <label for="city" >City</label>
+                     </th>
+                     <th>
+                        <input type="text" id="city" placeholder="City" name="city">
+                     </th>
+                  </tr>
+                  <tr>
+                     <th>
+                        <label for="state" >State</label>
+                     </th>
+                     <th>
+                        <select name="states" id="states">
+                           <option value=" "> </option>
+                           <option value="Alabama">Alabama</option>
+                           <option value="Alaska">Alaska</option>
+                           <option value="Arizona">Arizona</option>
+                           <option value="Arkansas">Arkansas</option>
+                           <option value="California">California</option>
+                           <option value="Colorado">Colorado</option>
+                           <option value="Connecticut">Connecticut</option>
+                           <option value="Delaware">Delaware</option>
+                           <option value="Florida">Florida</option>
+                           <option value="Georgia">Georgia</option>
+                           <option value="Hawaii">Hawaii</option>
+                           <option value="Idaho">Idaho</option>
+                           <option value="Illinois">Illinois</option>
+                           <option value="Iowa">Iowa</option>
+                           <option value="Kansas">Kansas</option>
+                           <option value="Kentucky">Kentucky</option>
+                           <option value="Lousiana">Lousiana</option>
+                           <option value="Maine">Maine</option>
+                           <option value="Maryland">Maryland</option>
+                           <option value="Massachusetts">Massachusetts</option>
+                           <option value="Michigan">Michigan</option>
+                           <option value="Minnesota">Minnesota</option>
+                           <option value="Mississippi">Mississippi</option>
+                           <option value="Missouri">Missouri</option>
+                           <option value="Montana">Montana</option>
+                           <option value="Nebraska">Nebraska</option>
+                           <option value="Nevada">Nevada</option>
+                           <option value="New Hampshire">New Hampshire</option>
+                           <option value="New Jersey">New Jersey</option>
+                           <option value="New Mexico">New Mexico</option>
+                           <option value="New York">New York</option>
+                           <option value="North Carolina">North Carolina</option>
+                           <option value="North Dakota">North Dakota</option>
+                           <option value="Ohio">Ohio</option>
+                           <option value="Oklahoma">Oklahoma</option>
+                           <option value="Oregon">Oregon</option>
+                           <option value="Pennsylvania">Pennsylvania</option>
+                           <option value="Rhode Island">Rhode Island</option>
+                           <option value="South Carolina">South Carolina</option>
+                           <option value="South Dakota">South Dakota</option>
+                           <option value="Tennessee">Tennessee</option>
+                           <option value="Texas">Texas</option>
+                           <option value="Utah">Utah</option>
+                           <option value="Vermont">Vermont</option>
+                           <option value="Virginia">Virginia</option>
+                           <option value="Washington">Washington</option>
+                           <option value="West Virginia">West Virginia</option>
+                           <option value="Wisconsin">Wisconsin</option>
+                           <option value="Wyoming">Wyoming</option>
+                        </select>
+                     </th>
+                  </tr>
+                  <tr>
+                     <th>
+                        <label for="city" >Zip Code</label>
+                     </th>
+                     <th>
+                        <input type="text" id="zipcode" placeholder="zipcode" name="zipcode">
+                     </th>
+                  </tr>
+               </table>
+               <table align="center">
+                  <tr>
+                     <th>
+                        <label>
+                           <input type="checkbox" checked="checked" name="remember">Make this my default address
+                       </label>
+                       </th>
+                  </tr>
+               </table>
+               <center>
+               <button type="submit">Use this Address</button>
+               <br>
+               <button type="button" class="cancelbtn">Cancel</button>
+           </center>
+           </form>
+         </div>
+         <br>
+         <div>
+            <h2 align="center"> Choose a Payment Method </h2>
+            <form>
+               <table align="center">
+                  <h3 align="center">Credit/ Debit Card</h3>
+                  <tr>
+                     <th>
+                        <label for="Number" >Card Number</label>
+                     </th>
+                     <th>
+                        <input type="text" id="Number" placeholder="Number" name="Number">
+                     </th>
+                  </tr>
+                  <tr>
+                     <th>
+                        <label for="Name" >Name on Card</label>
+                     </th>
+                     <th>
+                        <input type="text" id="Name" placeholder="Name" name="Name">
+                     </th>
+                  </tr>
+                  <tr>
+                     <th>
+                        <label for="date" >Expiration Date</label>
+                     </th>
+                     <th>
+                        <select name="Month" id="Month">
+                           <option value=" "> </option>
+                           <option value="January">January</option>
+                           <option value="February">February</option>
+                           <option value="March">March</option>
+                           <option value="April">April</option>
+                           <option value="May">May</option>
+                           <option value="June">June</option>
+                           <option value="July">July</option>
+                           <option value="August">August</option>
+                           <option value="September">September</option>
+                           <option value="October">October</option>
+                           <option value="November">November</option>
+                           <option value="December">December</option>
+                        </select>
+                        <select name="Year" id="Year">
+                           <option value=" "> </option>
+                           <option value="2024">2024</option>
+                           <option value="2025">2025</option>
+                           <option value="2026">2026</option>
+                           <option value="2027">2027</option>
+                           <option value="2028">2028</option>
+                           <option value="2029">2029</option>
+                           <option value="2030">2030</option>
+                           <option value="2031">2031</option>
+                           <option value="2032">2032</option>
+                           <option value="2033">2033</option>
+                           <option value="2034">2034</option>
+                           <option value="2035">2035</option>
+                        </select>
+                     </th>
+                  </tr>
+                  <tr>
+                     <th>
+                        <label for="Number" >Secruity Code</label>
+                     </th>
+                     <th>
+                        <input type="text" id="Number" placeholder="Number" name="Number">
+                     </th>
+                  </tr>
+               </table>
+               <table align="center">
+                  <tr>
+                     <th>
+                        <input type="checkbox" checked="checked" name="remember">Make this my default
+                        Payment?
+                     </th>
+                  </tr>
+               </table>
+               <table align="center">
+                  <h3 align="center">PayPal</h3>
+                  <tr>
+                     <th>
+                        <label for="uname"><b>Username</b></label>
+                     </th>
+                     <th>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+                     </th>
+                  </tr>
+                  <tr>
+                     <th>
+                        <label for="psw"><b>Password</b></label>
+                     </th>
+                     <th>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                     </th>
+                  </tr>
+               </table>
+               <table align="center">
+                  <h3 align="center">Venmo</h3>
+                  <tr>
+                     <th>
+                        <label for="uname"><b>Username</b></label>
+                     </th>
+                     <th>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+                     </th>
+                  </tr>
+                  <tr>
+                     <th>
+                        <label for="psw"><b>Password</b></label>
+                     </th>
+                     <th>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                     </th>
+                  </tr>
+               </table>
+            </form>
+         </div>
+         <br>
+         <div>
+            <h3 align="center">Order Summary</h3>
+            <table align="center">
+               <tr>
+                  <th>
+                     Items:
+                  </th>
+                  <th>
+                     Shipping & Handeling:
+                  </th>
+               </tr>
+            </table>
+         </div>
+         <br>
+         <div>
+            <h3 align="center"></h3>
+            <table width="100%">
+               <tr>
+                  <th>
+                     <button type="submit">Place your Order</button>
+                  </th>
+               </tr>
+            </table>
+         </div>
+         <footer>
+            <center>
+               <p>© TGS 2023</p>
+            </center>
+         </footer>
+</body>
+</html>
